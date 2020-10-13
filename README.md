@@ -29,8 +29,6 @@ CH545提供丰富的接口资源，包括2组异步串口、6路PWM、14通道�
 * 提供14通道电容触摸按键；
 * 内置时钟和PLL，也可支持外部晶振；
 
-封装：LQFP48、LQFP64
-
 ### [资源收录](https://github.com/SoCXin/CH545)
 
 * [文档](docs/)
@@ -38,8 +36,8 @@ CH545提供丰富的接口资源，包括2组异步串口、6路PWM、14通道�
 
 ### [选型建议](https://github.com/SoCXin)
 
-[CH545](https://github.com/SoCXin/CH545)
+[CH545](https://github.com/SoCXin/CH545)封装LQFP64，主要用于USB HUB类产品，简化版本CH544提供LQFP48，相比去掉了RGB三色LED的PWM模块，仅提供2通道复合USB设备控制器和3组IIC
 
-CH544是CH545的简化版，去掉了RGB三色LED的PWM模块，仅提供2通道复合USB设备控制器和3组IIC，其他的与CH545相同，可直接参考CH545手册和资料。
+[CH557](https://github.com/SoCXin/CH557)定位相当，规格相当
 
 ###  [SoC芯平台](http://www.SoC.Xin)
