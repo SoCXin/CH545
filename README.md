@@ -12,6 +12,8 @@
 CH545内嵌USB主机控制器和收发器，内置4端口USB root-hub根集线器，支持USB Host主机模式和USB Device 设备模式，支持USB 2.0全速12Mpbs或者低速1.5Mbps；内嵌4通道全速复合USB设备控制器和收发器，每个复合USB设备控制器包括一个device-hub和三个功能子设备。支持最大64字节数据包，内置FIFO，支持DMA。
 CH545提供丰富的接口资源，包括2组异步串口、6路PWM、14通道电容触摸按键、1组IIC主机、4组IIC从机、128组RGB三色LED控制器，其他包括2路SPI、14路12位ADC，支持电压比较；内置3组定时器和2路信号捕捉；支持最多58个GPIO。
 
+[![sites](docs/CH545.png)](http://www.wch.cn/products/CH545.html)
+
 
 * 内置60KB Code Flash、1KB Data Flash和3KB BootLoader，支持USB和串口ISP；
 * 内置8KB XRAM和内部256B RAM；
