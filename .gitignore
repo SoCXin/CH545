@@ -1,3 +1,8 @@
 *.pyc
+*.hex
+*.log
 .pio/
 .vscode/
+*.uvgui*
+Objects
+Listings
