@@ -1,8 +1,12 @@
 *.pyc
-*.hex
+# *.hex
 *.log
 .pio/
 .vscode/
+*.lst
+*.m51
+*.uvopt
 *.uvgui*
+obj
 Objects
 Listings

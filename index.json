@@ -1,50 +1,36 @@
 {
     "type":"MCU",
     "name":"CH545",
-    "title": "WCH 8051 CH545",
-    "description":"WCH 1T 8051 CH545 MCU",
-    "version":"1.0.0",
+    "title": "WCH CH545 MCU",
+    "description":"WCH USB-PD MCU",
     "Core": {
-        "num": 1,
-        "type":"8051",
-        "Freq": 48,
-        "DMIPS": 100,
-        "CoreMark": 160
+        "CoreNum": 1,
+        "Core":"MCS-51",
+        "Fmax":48,
+        "DMIPS": 48,
+        "CoreMark": 48
     },
     "manufacturer": {
         "vendor":"WCH",
-        "homepage": "http://www.wch.cn/products/CH545.html"
+        "homepage":"http://www.wch.cn"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/SoCXin/CH545.git"
     },
-    "series":["CH545","CH556"],
+    "version":"1.0.0",
+    "series":["CH545","CH544"],
     "package":["LQFP48","LQFP64"],
-    "peripheral": ["TIM","ADC","USB","UART","SPI","LDO","PWM"],
-    "price":[5,16],
-    "PWR": {
-        "VDD": [2800,5000],
-        "Ivdd": 3.5,
-        "LDO": [5000,3300],
-        "rate": 1024
-    },
-    "EMC": {
-        "EFT": 2000,
-        "ESD": 4000
-    },
-    "upload": {
-        "ISP": true,
-        "IAP": true,
-        "SWD": true,
-        "speed": 115200
+    "peripheral": ["USB","HUB","ADC","UART","SPI","IIC"],
+    "temp": [-40,125],
+    "volt": [2.5,12],
+    "ESD": {
+        "HBM": 4000,
+        "CDM": 500
     },
     "keywords": [
-        "dev-platform",
-        "8051",
+        "MCS-51",
         "WCH",
-        "CH545",
-        "ADC","HUB","USB","I2C","RTC","SPI",
-        "3.6V","1.8V"
+        "USB","HUB","ADC","I2C","USB","SPI","UART"
     ]
 }
